@@ -1,0 +1,46 @@
+{
+  "controller": {
+    "name": "Logitech USB Gamepad",
+    "connection": "USB",
+    "library": "pygame"
+  },
+  "control": {
+    "drive_mode": "tank",
+    "speed_control": "proportional"
+  },
+  "axes": {
+    "left_track": {
+      "axis": 1,
+      "description": "Vertical axis of the left analog stick",
+      "status": "operational"
+    },
+    "right_track": {
+      "axis": 4,
+      "description": "Vertical axis of the right analog stick",
+      "status": "operational"
+    },
+    "dome_left": {
+      "axis": 2,
+      "description": "Left trigger",
+      "status": "planned"
+    },
+    "dome_right": {
+      "axis": 5,
+      "description": "Right trigger",
+      "status": "planned"
+    }
+  },
+  "buttons": {
+    "audio_test": {
+      "button": 0,
+      "description": "Plays the R2-D2 scream sound",
+      "status": "operational"
+    },
+    "shutdown": {
+      "button": 7,
+      "description": "Start button",
+      "hold_time_seconds": 5,
+      "status": "operational"
+    }
+  }
+}
